@@ -1,0 +1,25 @@
+# === Streamlit Web App Framework ===
+streamlit>=1.37.0
+
+# === Data handling ===
+pandas>=2.2.0
+numpy>=1.26.0
+
+# === HTTP requests for API calls ===
+requests>=2.31.0
+
+# === PDF generation ===
+reportlab>=3.6.13
+fpdf2>=2.7.8
+
+# === Font handling (避免 .exe 打包或雲端缺字型) ===
+fonttools>=4.52.0
+
+# === Optional: progress bar, file IO, data utilities ===
+tqdm>=4.66.0
+openpyxl>=3.1.2
+
+# === For compatibility (避免 "usedforsecurity" 錯誤的 OpenSSL/MD5 bug) ===
+cryptography>=42.0.0
+
+# === (如果你的 app 有使用 json / time / os / io，這些屬於內建，不需列出) ===
